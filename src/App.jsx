@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/aerodinamica" element={<Aerodinamics />} />
-        <Route path="/forcesG" element={<ForcesG />} />
+        <Route path="/forces-g" element={<ForcesG />} />
         <Route path="/alero" element={<Alero />} />
 
       </Routes>
