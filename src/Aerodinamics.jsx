@@ -34,7 +34,7 @@ function Aerodinamics() {
           </div>
           <motion.div className="flex w-full justify-center items-center">
             <img
-              src="public/f1wind.png"
+              src="/f1wind.png"
               alt="Air flow f1"
               className="w-full"
             />
@@ -46,7 +46,7 @@ function Aerodinamics() {
         <div className="flex w-full justify-between pt-32">
           <motion.div className="flex w-full justify-center items-center">
             <img
-              src="public/drag.png"
+              src="/drag.png"
               alt="Air flow f1"
               className="w-full"
             />
@@ -79,7 +79,7 @@ En F1, es busca que l'aire "empenyi" el cotxe cap avall. Això genera més agarr
           </div>
           <motion.div className="flex w-full justify-center items-center">
             <img
-              src="public/f1.png"
+              src="/f1.png"
               alt="Air flow f1"
               className="w-full"
             />
