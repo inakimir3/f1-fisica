@@ -10,7 +10,7 @@ function Header() {
         <Link to="/" className="hover:text-blue-400 transition">Inici</Link>
         <Link to="/aerodinamica" className="hover:text-blue-400 transition">Aerodinàmica</Link>
         <Link to="/forces-g" className="hover:text-blue-400 transition">Forces G</Link>
-        <Link to="/alero" className="hover:text-blue-400 transition">Aleró</Link>
+        <Link to="/drs" className="hover:text-blue-400 transition">DRS</Link>
       </nav>
     </header>
   );

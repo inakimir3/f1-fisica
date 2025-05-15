@@ -45,18 +45,19 @@ function ForcesG() {
         <div className="flex w-full justify-between pt-32">
           <motion.div className="flex w-full justify-center items-center">
             <img
-              src="/drag.png"
+              src="/f12.png"
               alt="Air flow f1"
               className="w-full"
             />
           </motion.div>
           <div className="flex flex-col gap-16 pl-40">
-            <h2 className="text-4xl font-bold">Drag (resistència a l'avanç)</h2>
+            <h2 className="text-4xl font-bold">Què sent un pilot?</h2>
             <p className="w-full text-[20px]">
-              El drag és la força que s'oposa al moviment del cotxe. Com més ràpid vas, més aire has de "empènyer".
+              Els pilots de Fórmula 1 experimenten forces G en cada corba, acceleració i frenada. Aquestes forces poden ser molt intenses, i els pilots han d'estar preparats per suportar-les.
               <br /> <br />
-              Imagina treure la mà per la finestra del cotxe: com més acceleres, més et costa mantenir-la ferm. Això és el drag. <br />
-              <br /> Un cotxe amb menys drag aconsegueix més velocitat punta. Per això els enginyers dissenyen el xassís amb línies suaus i estretes, com una fletxa.
+              El coll forçat cap a un costat durant segons una i una altra vegada, frenades que empenyen el seu cos cap endavant i acceleracions que el llancen contra el seient.
+              <br /> <br />
+              Això genera una fatiga muscular extrema, sobre tot al coll i l'esquena. Els pilots entrenen intensament per a suportar aquestes forces, i els seus seients estan dissenyats per a mantenir-los en la millor posició possible.
             </p>
           </div>
         </div>
@@ -65,23 +66,16 @@ function ForcesG() {
       <section className="relative w-full flex flex-col gap-16 px-20 pb-40">
         <div className="flex w-full justify-between pt-32">
           <div className="flex flex-col gap-16 pr-40">
-            <h2 className="text-4xl font-bold">Downforce (càrrega aerodinàmica)</h2>
+            <h2 className="text-4xl font-bold">Exemple real: corba 8 GP d'Istanbul</h2>
             <p className="w-full max-w-[1300px] text-[20px]">
-            El downforce és l'oposat al lift (força que aixecaria el cotxe, com en un avió).
-En F1, es busca que l'aire "empenyi" el cotxe cap avall. Això genera més agarri en les rodes, permetent prendre corbes més ràpid sense derrapar.
-
+            En la corba 8 del circuit de Turquia, els pilots experimenten més de 5G sostinguts durant 4 segons.
 
               <br /> <br />
-              El downforce es genera gràcies als alerons, ja que les seves formes obliguen a l'aire a recórrer més distància per damunt, creant una diferència de pressió que aferra el cotxe al sòl. <br />
-              <br /> Més downforce significa més velocitat en corbes, però també significa més drag. Per això s'ha d'aconseguir un equilibri entre ambdues forces.
+              És com tenir una persona damunt del teu cap mentre condueixes a 270 km/h.
             </p>
           </div>
           <motion.div className="flex w-full justify-center items-center">
-            <img
-              src="/f1.png"
-              alt="Air flow f1"
-              className="w-full"
-            />
+            <lite-youtube videoid="UoAnfutvuWk"></lite-youtube>
           </motion.div>
         </div>
       </section>
